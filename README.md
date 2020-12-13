@@ -15,6 +15,8 @@
    > git clone https://github.com/RhnAdi/simple-notes
 2. Install Node Modules
    > npm install
+3. Start
+   > npm start
 
 ![Note App](https://github.com/RhnAdi/simple-notes/blob/master/screenshot/Notes.png)
 ![Auth Note](https://github.com/RhnAdi/simple-notes/blob/master/screenshot/auth.png)
