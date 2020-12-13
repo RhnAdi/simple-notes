@@ -1,0 +1,26 @@
+@import "./config.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Sans serif";
+  box-sizing: border-box;
+}
+body {
+  @include dark-mode();
+}
+.disable {
+  background-color: grey !important;
+}
+
+@import "./auth.scss";
+
+@import "./button.scss";
+
+@import "./background.scss";
+
+@import "./dashboard.scss";
+
+@import "./note.scss";
+
+@import "./color.scss";

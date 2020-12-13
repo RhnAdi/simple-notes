@@ -1,0 +1,35 @@
+@import "./config.scss";
+
+.note {
+  position: relative;
+  width: 400px;
+  border: 2px solid;
+  padding: 10px;
+  margin: 10px 0px;
+  &:hover {
+    background-color: $primary;
+    color: $light;
+    border-color: $primary;
+    cursor: pointer;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+  .description {
+    white-space: pre-wrap;
+  }
+  .clear {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    right: 0;
+    top: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}

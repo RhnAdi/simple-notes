@@ -1,0 +1,23 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+// Variabel
+$dark: #1a1a2e;
+$light: #fcf8ec;
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$danger: #dc3545;
+$warning: #ffc107;
+
+// Mixin
+@mixin dark-mode() {
+  color: $light;
+  background-color: $dark;
+  border-color: $light;
+}
+@mixin light-mode() {
+  color: $dark;
+  background-color: $light;
+  border-color: $dark;
+}
